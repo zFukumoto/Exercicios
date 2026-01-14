@@ -1,0 +1,24 @@
+
+header{
+    background-color: dodgerblue;
+}
+footer {
+    font-weight: bold;
+    background-color: dodgerblue;
+}
+a {
+    color: white;
+}
+h3 {
+    color: white;
+}
+.telefone {
+    background-color: white;
+    color:dodgerblue;
+}
+.banner {
+    background-color: purple;
+}
+.magazine {
+    color: darkslateblue;
+}

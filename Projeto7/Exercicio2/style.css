@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid darkorange;
+    background-color: orange;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid darkgrey;
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 5px;
+}
