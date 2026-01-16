@@ -1,0 +1,29 @@
+header {
+    background: dodgerblue;
+    padding: 10px;
+}
+body {
+    margin: 0;
+}
+a {
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 8px;
+    color: dodgerblue;
+}
+.magalu {
+    height: 50px;
+    margin: 8px;
+}
+#area-promocao {
+    background-color: purple;
+}
+#promocao {
+    width: 1000px;
+    margin: 0 auto;
+}
+#corpo {
+    width: 1000px;
+    margin: 10px auto;
+}
