@@ -1,0 +1,18 @@
+header {
+    background-color: red;
+}
+#area-promocao {
+    background-color: gray;
+}
+#destaque {
+    background-color: orange;
+}
+.produtos {
+    border: 1px solid black;
+    padding: 20px;
+}
+.destaque {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 20px;
+}
