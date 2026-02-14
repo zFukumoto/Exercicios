@@ -1,0 +1,13 @@
+h1 {
+    color: green;
+}
+h1+p {
+    border-top: 3px solid gray;
+}
+p>a {
+    color: white;
+    background: purple;
+}
+p.destaque {
+    color: purple;
+}
