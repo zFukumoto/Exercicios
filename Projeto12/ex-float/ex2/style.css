@@ -1,0 +1,17 @@
+#principal {
+    width: 920px;
+    margin: 0 auto;
+}
+#conteudo {
+    float: left;
+    width: 600px;
+}
+#lateral {
+    float: right;
+    width: 300px;
+}
+.topico {
+    border: 1px solid #e5e5e5;
+    margin: 2px 8px;
+    padding: 8px;
+}
