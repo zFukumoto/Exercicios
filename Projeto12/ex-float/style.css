@@ -1,0 +1,8 @@
+.caixa {
+    background-color: lightgray;
+}
+.left {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
