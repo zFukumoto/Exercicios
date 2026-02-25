@@ -18,3 +18,8 @@
 #menu li a:active {
     background-color: #885000;
 }
+#menu li.selecionado a {
+    padding-left:2.5em;
+    color: white;
+    background: #f99200 url(img/seta.png) no-repeat 1.5em center;
+}
