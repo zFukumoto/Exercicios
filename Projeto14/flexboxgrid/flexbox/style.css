@@ -7,9 +7,9 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 .container-flex > div {
-    width: 100px;
     color: white;
     padding: 4px;
     margin: 4px;
