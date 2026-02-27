@@ -1,0 +1,13 @@
+/*Flex Container */
+header {
+    display: flex;
+    align-items: center;
+}
+/*Flex Container */
+nav {
+    flex-grow: 1;
+}
+ul {
+    display: flex;
+    padding: 10px;
+}
