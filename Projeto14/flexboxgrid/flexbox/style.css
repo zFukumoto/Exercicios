@@ -26,3 +26,12 @@ h1, h3 {
 .item {
     align-self: flex-start;
 }
+.item1 {
+    flex-basis: 120px;
+}
+.item2 {
+    flex-basis: 60px;
+}
+.item3  {
+    flex-basis: auto;
+}
