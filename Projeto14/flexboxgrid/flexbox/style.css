@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 .container-flex {
-    width: 250px;
+    width: 100%;
     height: 200px;
     border: 4px solid red;
     display: flex;
@@ -34,4 +34,13 @@ h1, h3 {
 }
 .item3  {
     flex-basis: auto;
+}
+.item4  {
+    flex-grow: 1;
+}
+.item5  {
+    flex-grow: 2;
+}
+.item6  {
+    flex-grow: 1;
 }
