@@ -13,8 +13,6 @@
             padding: 0;
         }
         .grid {
-            height: 100vh;
-            display: grid;
             /* grid-template-columns: 200px 200px 200px; */
             /* grid-template-columns: 35% 50% 15%; */
             /* grid-template-columns: repeat(3, 33%); */
@@ -23,9 +21,13 @@
             /* grid-template-columns: 1fr 1fr 1fr; */
             /* grid-template-columns: 200px 1fr 1fr; */
             /* grid-template-columns: repeat(2, 1fr) 2fr 4fr;  */
-            grid-template-columns: repeat(3, 1fr);
             /* grid-template-rows: 300px 200px 100px; */
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 1fr 2fr 3fr 4fr; /* Mesma lógica de usos das colunas, mas para as linhas */
+            row-gap: 20px;
+            column-gap: 20px;
         }
         .grid > div {
             border: 3px solid red;
