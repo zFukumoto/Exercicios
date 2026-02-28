@@ -1,0 +1,28 @@
+body {
+    font-size: 1.2rem;
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding: 20px;
+}
+.grid {
+    height: 40vh;
+    display: grid;
+    border: 5px solid red;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(4, 50px);
+    align-content: center;
+    justify-content: center;
+}
+.grid > div {
+    border: 3px solid blue;
+    text-align: center;
+}
+.justify {
+    justify-items: center;
+}
+.align {
+    align-items: center;
+}
