@@ -5,14 +5,18 @@ function calcularMelhorPreco(){
         if(precoGasolina != ""){
             let resultado = precoAlcool / precoGasolina
             if(resultado >= 0.7){
-                alert("Melhor utilizar Gasolina")
+                // alert("Melhor utilizar Gasolina")
+                document.getElementById('resultado').innerHTML = "Melhor utilizar Gasolina"
             }else {
-                alert("Melhor utilizar Álcool")
+                // alert("Melhor utilizar Álcool")
+                document.getElementById('resultado').innerHTML = "Melhor utilizar Álcool"
             }
         }else {
-            alert("Preencha o Preço da Gasolina")
+            // alert("Preencha o Preço da Gasolina")
+                document.getElementById('resultado').innerHTML = "Preencha o Preço da Gasolina"
         }
     }else {
-        alert("Preencha o Preço do Álcool")
+        // alert("Preencha o Preço do Álcool")
+                document.getElementById('resultado').innerHTML = "Preencha o Preço da Álcool"
     }
 }
